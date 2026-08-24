@@ -1,0 +1,24 @@
+# FLOW Installer Messages
+# These messages are displayed during installation
+# Edit this file to change what users see during the install process
+
+# Display at the START of installation (after logo, before prompts)
+startMessage: |
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Welcome to FLOW Method — AI-Driven Agile Development Framework
+
+  A modular platform for teams and solo developers building software with AI agents.
+    - Install the modules that fit your workflow
+    - Agents, workflows, and specs designed to work together
+    - Documentation: https://docs.flow-method.org
+
+  ⭐ COMMUNITY & SUPPORT:
+    - GitHub: https://github.com/SylvioNetoRj/FLOW-METHOD/
+    - Discord: https://discord.gg/gk8jAdXWmj
+    - Changelog: https://github.com/SylvioNetoRj/FLOW-METHOD/blob/main/CHANGELOG.md
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# No end message - install summary and next steps are rendered by the installer
+endMessage: ""

@@ -1,0 +1,13 @@
+---
+description: '{{description}}'
+---
+
+Execute the FLOW '{{name}}' task.
+
+TASK INSTRUCTIONS:
+
+1. LOAD the task file from {project-root}/{{flowFolderName}}/{{path}}
+2. READ its entire contents
+3. FOLLOW every instruction precisely as specified
+
+TASK FILE: {project-root}/{{flowFolderName}}/{{path}}

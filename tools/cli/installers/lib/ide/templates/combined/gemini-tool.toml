@@ -1,0 +1,11 @@
+description = "Executes the {{name}} tool from the FLOW Method."
+prompt = """
+Execute the FLOW '{{name}}' tool.
+
+TOOL INSTRUCTIONS:
+1. LOAD the tool file from {project-root}/{{flowFolderName}}/{{path}}
+2. READ its entire contents
+3. FOLLOW every instruction precisely as specified
+
+TOOL FILE: {project-root}/{{flowFolderName}}/{{path}}
+"""
