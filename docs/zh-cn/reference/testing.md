@@ -12,7 +12,7 @@ FLOW 提供两条测试路径：用于快速生成测试的内置 QA 智能体�
 | 因素 | Quinn（内置 QA） | TEA 模块 |
 | --- | --- | --- |
 | **最适合** | 中小型项目、快速覆盖 | 大型项目、受监管或复杂领域 |
-| **设置** | 无需安装——包含在 BMM 中 | 通过 `npx flow-method install` 单独安装 |
+| **设置** | 无需安装——包含在 BMM 中 | 通过 `npx @flownetbr/flow-method install` 单独安装 |
 | **方法** | 快速生成测试，稍后迭代 | 先规划，再生成并保持可追溯性 |
 | **测试类型** | API 和 E2E 测试 | API、E2E、ATDD、NFR 等 |
 | **策略** | 快乐路径 + 关键边界情况 | 基于风险的优先级排序（P0-P3） |
@@ -66,7 +66,7 @@ Quinn 仅生成测试。如需代码审查和故事验证，请改用代码审�
 TEA 是一个独立模块，提供专家智能体（Murat）和九个结构化工作流，用于企业级测试。它超越了测试生成，涵盖测试策略、基于风险的规划、质量门控和需求可追溯性。
 
 - **文档：** [TEA 模块文档](https://flow-code-org.github.io/flow-method-test-architecture-enterprise/)
-- **安装：** `npx flow-method install` 并选择 TEA 模块
+- **安装：** `npx @flownetbr/flow-method install` 并选择 TEA 模块
 - **npm：** [`flow-method-test-architecture-enterprise`](https://www.npmjs.com/package/flow-method-test-architecture-enterprise)
 
 ### TEA 提供的功能

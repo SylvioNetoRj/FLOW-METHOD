@@ -21,7 +21,7 @@ description: 安装 FLOW 并构建你的第一个项目
 :::
 
 :::tip[最简单的路径]
-**安装** → `npx flow-method install`
+**安装** → `npx @flownetbr/flow-method install`
 **询问** → `/flow-help 我应该先做什么？`
 **构建** → 让 FLOW-Help 逐个工作流地引导你
 :::
@@ -92,7 +92,7 @@ FLOW 通过带有专门 AI 智能体的引导工作流帮助你构建软件。�
 在项目目录中打开终端并运行：
 
 ```bash
-npx flow-method install
+npx @flownetbr/flow-method install
 ```
 
 当提示选择模块时，选择 **FLOW Method**。

@@ -61,16 +61,16 @@ Available tool IDs for the `--tools` flag:
 
 **Preferred:** `claude-code`, `cursor`
 
-Run `npx flow-method install` interactively once to see the full current list of supported tools, or check the [platform codes configuration](https://github.com/SylvioNetoRj/FLOW-METHOD/blob/main/tools/cli/installers/lib/ide/platform-codes.yaml).
+Run `npx @flownetbr/flow-method install` interactively once to see the full current list of supported tools, or check the [platform codes configuration](https://github.com/SylvioNetoRj/FLOW-METHOD/blob/main/tools/cli/installers/lib/ide/platform-codes.yaml).
 
 ## Installation Modes
 
 | Mode | Description | Example |
 |------|-------------|---------|
-| Fully non-interactive | Provide all flags to skip all prompts | `npx flow-method install --directory . --modules bmm --tools claude-code --yes` |
-| Semi-interactive | Provide some flags; FLOW prompts for the rest | `npx flow-method install --directory . --modules bmm` |
-| Defaults only | Accept all defaults with `-y` | `npx flow-method install --yes` |
-| Without tools | Skip tool/IDE configuration | `npx flow-method install --modules bmm --tools none` |
+| Fully non-interactive | Provide all flags to skip all prompts | `npx @flownetbr/flow-method install --directory . --modules bmm --tools claude-code --yes` |
+| Semi-interactive | Provide some flags; FLOW prompts for the rest | `npx @flownetbr/flow-method install --directory . --modules bmm` |
+| Defaults only | Accept all defaults with `-y` | `npx @flownetbr/flow-method install --yes` |
+| Without tools | Skip tool/IDE configuration | `npx @flownetbr/flow-method install --modules bmm --tools none` |
 
 ## Examples
 
@@ -80,7 +80,7 @@ Run `npx flow-method install` interactively once to see the full current list of
 #!/bin/bash
 # install-flow.sh
 
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory "${GITHUB_WORKSPACE}" \
   --modules bmm \
   --tools claude-code \
@@ -94,7 +94,7 @@ npx flow-method install \
 ### Update Existing Installation
 
 ```bash
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory ~/projects/myapp \
   --action update \
   --modules bmm,bmb,custom-module
@@ -103,7 +103,7 @@ npx flow-method install \
 ### Quick Update (Preserve Settings)
 
 ```bash
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory ~/projects/myapp \
   --action quick-update
 ```
@@ -111,7 +111,7 @@ npx flow-method install \
 ### Installation with Custom Content
 
 ```bash
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory ~/projects/myapp \
   --modules bmm \
   --custom-content ~/my-custom-module,~/another-module \

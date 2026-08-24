@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Use the `npx flow-method install` command to set up FLOW in your project with your choice of modules and AI tools.
+Use the `npx @flownetbr/flow-method install` command to set up FLOW in your project with your choice of modules and AI tools.
 
 If you want to use a non interactive installer and provide all install options on the command line, see [this guide](./non-interactive-installation.md).
 
@@ -26,7 +26,7 @@ If you want to use a non interactive installer and provide all install options o
 ### 1. Run the Installer
 
 ```bash
-npx flow-method install
+npx @flownetbr/flow-method install
 ```
 
 :::tip[Bleeding edge]

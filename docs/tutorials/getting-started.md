@@ -21,7 +21,7 @@ Build software faster using AI-powered workflows with specialized agents that gu
 :::
 
 :::tip[The Easiest Path]
-**Install** → `npx flow-method install`
+**Install** → `npx @flownetbr/flow-method install`
 **Ask** → `/flow-help what should I do first?`
 **Build** → Let FLOW-Help guide you workflow by workflow
 :::
@@ -92,7 +92,7 @@ Story counts are guidance, not definitions. Choose your track based on planning 
 Open a terminal in your project directory and run:
 
 ```bash
-npx flow-method install
+npx @flownetbr/flow-method install
 ```
 
 When prompted to select modules, choose **FLOW Method**.

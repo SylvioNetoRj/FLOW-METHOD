@@ -39,7 +39,7 @@
 Community-driven FTW! 🌟
 
 📦 **INSTALL ALPHA:**
-`npx flow-method install`
+`npx @flownetbr/flow-method install`
 
 ⭐ **SUPPORT US:**
 🌟 GitHub: github.com/SylvioNetoRj/FLOW-METHOD/

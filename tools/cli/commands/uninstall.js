@@ -148,7 +148,7 @@ module.exports = {
       if (!removeOutputFolder) summary.push(`User artifacts preserved in ${outputFolder}/`);
 
       await prompts.note(summary.join('\n'), 'Summary');
-      await prompts.outro('To reinstall, run: npx flow-method install');
+      await prompts.outro('To reinstall, run: npx @flownetbr/flow-method install');
 
       process.exit(0);
     } catch (error) {

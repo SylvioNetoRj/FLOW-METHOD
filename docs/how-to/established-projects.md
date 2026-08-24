@@ -10,7 +10,7 @@ Use FLOW Method effectively when working on existing projects and legacy codebas
 This guide covers the essential workflow for onboarding to existing projects with FLOW Method.
 
 :::note[Prerequisites]
-- FLOW Method installed (`npx flow-method install`)
+- FLOW Method installed (`npx @flownetbr/flow-method install`)
 - An existing codebase you want to work on
 - Access to an AI-powered IDE (Claude Code or Cursor)
 :::

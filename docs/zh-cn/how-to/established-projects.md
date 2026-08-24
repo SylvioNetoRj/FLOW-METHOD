@@ -10,7 +10,7 @@ sidebar:
 本指南涵盖了使用 FLOW Method 接入现有项目的核心工作流程。
 
 :::note[前置条件]
-- 已安装 FLOW Method（`npx flow-method install`）
+- 已安装 FLOW Method（`npx @flownetbr/flow-method install`）
 - 一个你想要处理的现有代码库
 - 访问 AI 驱动的 IDE（Claude Code 或 Cursor）
 :::

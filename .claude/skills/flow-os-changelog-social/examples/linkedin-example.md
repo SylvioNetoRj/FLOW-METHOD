@@ -32,7 +32,7 @@ Everything in FLOW Method is FREE. No paywalls, no gated content, no premium tie
 **Get Started**
 
 ```
-npx flow-method@alpha install
+npx @flownetbr/flow-method@alpha install
 ```
 
 **Learn More**

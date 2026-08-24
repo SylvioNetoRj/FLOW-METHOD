@@ -47,7 +47,7 @@ title: Official Modules
   - 1-2 sentence description (sourced from GitHub README, not just the registry's short description)
   - Key info list: module code, npm package (linked), GitHub repo (linked)
   - Brief bullet list of what it provides (agents, workflows, key features) — keep to 3-5 bullets
-- Include a `:::tip` admonition about how to install modules (via `npx flow-method` installer)
+- Include a `:::tip` admonition about how to install modules (via `npx @flownetbr/flow-method` installer)
 - Mention that community modules and a marketplace are coming
 - Do NOT include built-in modules (core, bmm) — this page is specifically for external/add-on modules
 

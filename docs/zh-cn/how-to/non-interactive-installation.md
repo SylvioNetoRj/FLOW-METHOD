@@ -61,16 +61,16 @@ sidebar:
 
 **推荐：** `claude-code`、`cursor`
 
-运行一次 `npx flow-method install` 交互式安装以查看完整的当前支持工具列表，或查看 [平台代码配置](https://github.com/SylvioNetoRj/FLOW-METHOD/blob/main/tools/cli/installers/lib/ide/platform-codes.yaml)。
+运行一次 `npx @flownetbr/flow-method install` 交互式安装以查看完整的当前支持工具列表，或查看 [平台代码配置](https://github.com/SylvioNetoRj/FLOW-METHOD/blob/main/tools/cli/installers/lib/ide/platform-codes.yaml)。
 
 ## 安装模式
 
 | 模式 | 描述 | 示例 |
 |------|-------------|---------|
-| 完全非交互式 | 提供所有标志以跳过所有提示 | `npx flow-method install --directory . --modules bmm --tools claude-code --yes` |
-| 半交互式 | 提供部分标志；FLOW 提示其余部分 | `npx flow-method install --directory . --modules bmm` |
-| 仅使用默认值 | 使用 `-y` 接受所有默认值 | `npx flow-method install --yes` |
-| 不包含工具 | 跳过工具/IDE 配置 | `npx flow-method install --modules bmm --tools none` |
+| 完全非交互式 | 提供所有标志以跳过所有提示 | `npx @flownetbr/flow-method install --directory . --modules bmm --tools claude-code --yes` |
+| 半交互式 | 提供部分标志；FLOW 提示其余部分 | `npx @flownetbr/flow-method install --directory . --modules bmm` |
+| 仅使用默认值 | 使用 `-y` 接受所有默认值 | `npx @flownetbr/flow-method install --yes` |
+| 不包含工具 | 跳过工具/IDE 配置 | `npx @flownetbr/flow-method install --modules bmm --tools none` |
 
 ## 示例
 
@@ -80,7 +80,7 @@ sidebar:
 #!/bin/bash
 # install-flow.sh
 
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory "${GITHUB_WORKSPACE}" \
   --modules bmm \
   --tools claude-code \
@@ -94,7 +94,7 @@ npx flow-method install \
 ### 更新现有安装
 
 ```bash
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory ~/projects/myapp \
   --action update \
   --modules bmm,bmb,custom-module
@@ -103,7 +103,7 @@ npx flow-method install \
 ### 快速更新（保留设置）
 
 ```bash
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory ~/projects/myapp \
   --action quick-update
 ```
@@ -111,7 +111,7 @@ npx flow-method install \
 ### 使用自定义内容安装
 
 ```bash
-npx flow-method install \
+npx @flownetbr/flow-method install \
   --directory ~/projects/myapp \
   --modules bmm \
   --custom-content ~/my-custom-module,~/another-module \

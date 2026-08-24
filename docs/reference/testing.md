@@ -12,7 +12,7 @@ FLOW provides two testing paths: a built-in QA agent for fast test generation an
 | Factor | Quinn (Built-in QA) | TEA Module |
 | --- | --- | --- |
 | **Best for** | Small-medium projects, quick coverage | Large projects, regulated or complex domains |
-| **Setup** | Nothing to install -- included in BMM | Install separately via `npx flow-method install` |
+| **Setup** | Nothing to install -- included in BMM | Install separately via `npx @flownetbr/flow-method install` |
 | **Approach** | Generate tests fast, iterate later | Plan first, then generate with traceability |
 | **Test types** | API and E2E tests | API, E2E, ATDD, NFR, and more |
 | **Strategy** | Happy path + critical edge cases | Risk-based prioritization (P0-P3) |
@@ -66,7 +66,7 @@ Quinn generates tests only. For code review and story validation, use the Code R
 TEA is a standalone module that provides an expert agent (Murat) and nine structured workflows for enterprise-grade testing. It goes beyond test generation into test strategy, risk-based planning, quality gates, and requirements traceability.
 
 - **Documentation:** [TEA Module Docs](https://flow-code-org.github.io/flow-method-test-architecture-enterprise/)
-- **Install:** `npx flow-method install` and select the TEA module
+- **Install:** `npx @flownetbr/flow-method install` and select the TEA module
 - **npm:** [`flow-method-test-architecture-enterprise`](https://www.npmjs.com/package/flow-method-test-architecture-enterprise)
 
 ### What TEA Provides

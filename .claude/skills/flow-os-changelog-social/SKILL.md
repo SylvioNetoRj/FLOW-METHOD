@@ -89,7 +89,7 @@ X commits | Y PRs merged | Z files changed
 Community-driven FTW! 🌟
 
 📦 **INSTALL:**
-`npx flow-method@VERSION install`
+`npx @flownetbr/flow-method@VERSION install`
 
 ⭐ **SUPPORT US:**
 🌟 GitHub: github.com/SylvioNetoRj/FLOW-METHOD/

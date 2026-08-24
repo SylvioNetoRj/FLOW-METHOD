@@ -131,7 +131,7 @@ prompts:
 编辑后，重新编译智能体以应用更改：
 
 ```bash
-npx flow-method install
+npx @flownetbr/flow-method install
 ```
 
 安装程序会检测现有安装并提供以下选项：
@@ -148,7 +148,7 @@ npx flow-method install
 
 **更改未生效？**
 
-- 运行 `npx flow-method install` 并选择 **Recompile Agents** 以应用更改
+- 运行 `npx @flownetbr/flow-method install` 并选择 **Recompile Agents** 以应用更改
 - 检查您的 YAML 语法是否有效（缩进很重要）
 - 验证您编辑的是该智能体正确的 `.customize.yaml` 文件
 
@@ -161,7 +161,7 @@ npx flow-method install
 **需要重置智能体？**
 
 - 清空或删除智能体的 `.customize.yaml` 文件
-- 运行 `npx flow-method install` 并选择 **Recompile Agents** 以恢复默认设置
+- 运行 `npx @flownetbr/flow-method install` 并选择 **Recompile Agents** 以恢复默认设置
 
 ## 工作流自定义
 

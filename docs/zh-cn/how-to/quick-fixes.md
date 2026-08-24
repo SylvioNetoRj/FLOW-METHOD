@@ -15,7 +15,7 @@ sidebar:
 - 探索性工作，以了解不熟悉的代码库
 
 :::note[前置条件]
-- 已安装 FLOW Method（`npx flow-method install`）
+- 已安装 FLOW Method（`npx @flownetbr/flow-method install`）
 - AI 驱动的 IDE（Claude Code、Cursor 或类似工具）
 :::
 

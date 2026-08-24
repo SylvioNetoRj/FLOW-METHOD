@@ -16,7 +16,7 @@ function findProjectRoot(startPath = __dirname) {
       try {
         const pkg = fs.readJsonSync(packagePath);
         // Check if this is the FLOW project
-        if (pkg.name === 'flow-method' || fs.existsSync(path.join(currentPath, 'src', 'core'))) {
+        if (pkg.name === 'flow-method' || pkg.name === '@flownetbr/flow-method' || fs.existsSync(path.join(currentPath, 'src', 'core'))) {
           return currentPath;
         }
       } catch {

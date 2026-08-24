@@ -24,7 +24,7 @@ body:
       label: Steps to reproduce
       description: Step-by-step instructions to reproduce the behavior
       placeholder: |
-        1. Run 'npx flow-method install'
+        1. Run 'npx @flownetbr/flow-method install'
         2. Select option X
         3. Run workflow Y
         4. See error
@@ -75,7 +75,7 @@ body:
     id: version
     attributes:
       label: FLOW Version
-      description: "Check with: npx flow-method --version or check package.json"
+      description: "Check with: npx @flownetbr/flow-method --version or check package.json"
       placeholder: e.g., 6.0.0-Beta.4
     validations:
       required: true

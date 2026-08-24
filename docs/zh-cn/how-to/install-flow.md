@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-使用 `npx flow-method install` 命令在项目中设置 FLOW，并选择你需要的模块和 AI 工具。
+使用 `npx @flownetbr/flow-method install` 命令在项目中设置 FLOW，并选择你需要的模块和 AI 工具。
 
 如果你想使用非交互式安装程序并在命令行中提供所有安装选项，请参阅[本指南](./non-interactive-installation.md)。
 
@@ -26,7 +26,7 @@ sidebar:
 ### 1. 运行安装程序
 
 ```bash
-npx flow-method install
+npx @flownetbr/flow-method install
 ```
 
 :::tip[最新版本]

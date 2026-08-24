@@ -15,7 +15,7 @@ Use the **DEV agent** directly for bug fixes, refactorings, or small targeted ch
 - Exploratory work to understand an unfamiliar codebase
 
 :::note[Prerequisites]
-- FLOW Method installed (`npx flow-method install`)
+- FLOW Method installed (`npx @flownetbr/flow-method install`)
 - An AI-powered IDE (Claude Code, Cursor, or similar)
 :::
 

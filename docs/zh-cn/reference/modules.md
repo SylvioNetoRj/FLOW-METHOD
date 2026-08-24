@@ -8,7 +8,7 @@ sidebar:
 FLOW 通过您在安装期间选择的官方模块进行扩展。这些附加模块为内置核心和 BMM（敏捷套件）之外的特定领域提供专门的智能体、工作流和任务。
 
 :::tip[安装模块]
-运行 `npx flow-method install` 并选择您需要的模块。安装程序会自动处理下载、配置和 IDE 集成。
+运行 `npx @flownetbr/flow-method install` 并选择您需要的模块。安装程序会自动处理下载、配置和 IDE 集成。
 :::
 
 ## FLOW Builder
