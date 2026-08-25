@@ -28,7 +28,7 @@
 **先决条件**：[Node.js](https://nodejs.org) v20+
 
 ```bash
-npx @flownetbr/flow-method install
+npx @flownetbr/flow-method@latest install
 ```
 
 按照安装程序提示操作，然后在项目文件夹中打开你的 AI IDE（Claude Code、Cursor 等）。
