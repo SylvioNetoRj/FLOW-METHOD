@@ -1411,10 +1411,7 @@ class Installer {
     lines.push(
       '',
       '  Next steps:',
-      `    Read our new Docs Site: ${color.dim('https://docs.flow-method.org/')}`,
-      `    Join our Discord: ${color.dim('https://discord.gg/gk8jAdXWmj')}`,
       `    Star us on GitHub: ${color.dim('https://github.com/SylvioNetoRj/FLOW-METHOD/')}`,
-      `    Subscribe on YouTube: ${color.dim('https://www.youtube.com/@FLOWCode')}`,
       `    Run ${color.cyan('/flow-help')} with your IDE Agent and ask it how to get started`,
     );
 
